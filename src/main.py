@@ -22,3 +22,8 @@ async def main():
         
         # 初始化组件
         ...
+
+
+t = threading.Thread(target=Video_display)
+t.setDaemon(True)
+t.start()
